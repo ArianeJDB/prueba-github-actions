@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "jest",
-    "build": "node suma"
+    "build": "node sum"
   },
   "repository": {
     "type": "git",
