@@ -1,0 +1,24 @@
+{
+  "name": "prueba-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "build": "node suma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArianeJDB/prueba-github-actions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArianeJDB/prueba-github-actions/issues"
+  },
+  "homepage": "https://github.com/ArianeJDB/prueba-github-actions#readme"
+}
