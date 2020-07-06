@@ -1,0 +1,17 @@
+name: CI node
+
+on:
+    pull_request:
+        branches: [ master ]
+
+jobs:
+    ci_to_master:
+        runs-on: macos-latest
+        spects:
+            - uses: actions/checkout@v1
+            - uses: actions/setup-node@v1
+                with:
+                    node-version: 'v12.16.x'
+                - run: npm ci
+                - run: npm test
+                - run: npm run build
