@@ -6,10 +6,13 @@
   "dependencies": {
     "jest": "^26.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
   "scripts": {
     "test": "jest",
-    "build": "node sum"
+    "build": "node sum",
+    "lint": "eslint sum.js"
   },
   "repository": {
     "type": "git",
