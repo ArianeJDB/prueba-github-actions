@@ -4,4 +4,5 @@ function sum(a,b) {
 
 sum(2,2)
 
-export default sum
+// eslint-disable-next-line no-undef
+module.exports = sum
